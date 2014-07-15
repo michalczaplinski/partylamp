@@ -11,7 +11,7 @@ int right;
 unsigned long timer;
 int sampleSpan = 1000; // Amount in milliseconds to sample data
 int volume;            // this roughly goes from 0 to 70
-int threshold = 15;     //single digit numbers
+int threshold = 25;     //single digit numbers
 
 void setup() {
     pinMode(led1, OUTPUT); 
